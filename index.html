@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body >
+  <div class="max-w-7xl text-white mx-auto">
+    <header class="sticky  top-0 text-black">
+        <nav class=" flex justify-between items-center bg-[#8D8DDA] py-4 px-2 shadow-md">
+           <div><h1 class="text-3xl font-bold uppercase">krypto</h1></div>
+           <div class="hidden sm:block">
+                 <ul class="flex space-x-16">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Buy NFTS</a></li>
+                 </ul>
+           </div>
+           <div class="flex flex-col sm:hidden">
+              <div><i id="toggle-btn" class="fa-sharp fa-solid fa-bars text-2xl cursor-pointer"></i></div>
+              <div class="hidden sm:hidden" id="toggle-menu">
+                <ul class="absolute right-2 top-20 bg-[#8D8DDA]  rounded-md flex flex-col justify-evenly space-y-6 py-4 px-8">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Buy NFTS</a></li>
+                 </ul>
+              </div>
+           </div>
+        </nav>
+  </header>
+
+  <section class="px-4 sm:px-2 py-12">
+     <div class="grid grid-cols-1 sm:grid-cols-2  items-center justify-items-center">
+           <div class="flex flex-col space-y-8 order-2 sm:order-1">
+               <div> <h1 class="text-5xl sm:text-7xl capitalize font-bold text-center sm:text-left">discover and collect rare NFTs</h1> </div>
+               <div><p class="text-lg text-center sm:text-left">The most secure marketplace for buying and selling unique crypto assets.</p></div>
+               <div class="flex items-center sm:space-x-4 justify-around sm:justify-start ">
+                 <button class="py-2 px-6 rounded-md bg-[#2b3297] text-md sm:text-lg hover:bg-[#3a419f] uppercase shadow-sm">buy nfts</button>
+                 <button class="py-2 px-6 rounded-md border border-white text-md sm:text-lg uppercase hover:text-black">sell nfts</button>
+               </div>
+           </div>
+           <div class="py-8 sm:py-0 order-1 sm:order-2 ">
+              <img src="./images/hero.png" alt="hero-img">
+           </div>
+     </div>
+  </section>
+
+  <section class="px-4 sm:px-2 py-12">
+     <div class="grid grid-cols-1 sm:grid-cols-2 items-center justify-items-center">
+        <div><img src="./images/analytics.png" alt="analytics-img"></div>
+        <div class="flex flex-col space-y-8 order-2 sm:order-1">
+            <div class="text-center text-lg sm:p-2 pt-6 sm:pt-0 uppercase">analytics</div>
+            <div><h2 class="text-4xl sm:text-6xl capitalize font-bold text-center sm:text-left">Built-in analytics to track your nfts</h2></div>
+            <div><p class="sm:pr-12 text-center sm:text-left text-lg">Use our built-in analytics dashboard to pull valuable insights and monitor the value of your Krypto portfolio over time.</p></div>
+            <div class="flex items-center justify-center sm:justify-start"><button class="py-2 px-6 rounded-md bg-[#2b3297] text-md sm:text-lg hover:bg-[#3a419f] shadow-sm">VIEW OUR PRICING</button></div>
+        </div>
+     </div>
+  </section >
+
+  <section class="px-4 sm:px-2 py-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 items-center justify-items-center">
+        <div class="flex flex-col space-y-8 order-2 sm:order-1">
+            <div class="text-center text-lg sm:p-2 pt-6 sm:pt-0 uppercase">get our app</div>
+            <div><h2 class="text-4xl sm:text-6xl capitalize font-bold text-center sm:text-left">browse nfts from your smartphone</h2></div>
+            <div><p class="sm:pr-12 text-center sm:text-left text-lg">Our Krypto app is the easiest way to keep track of your assets when you are on the go</p></div>
+            <div class="flex items-center justify-center sm:justify-start"><button class="py-2 px-6 rounded-md bg-[#2b3297] text-md sm:text-lg hover:bg-[#3a419f] shadow-sm">DOWNLOAD ON IOS</button></div>
+        </div>
+        <div class="order-1 sm:order-2 " ><img src="./images/download.png" alt="analytics-img"></div>
+     </div>
+  </section>
+
+  <section class="px-4 sm:px-2 py-12">
+    <div>
+         <div class="text-center text-lg sm:p-2 pt-6 sm:pt-0 uppercase">testimonials</div>
+         <div><h2 class="text-4xl sm:text-6xl capitalize font-bold text-center">read what others have to say</h2></div>
+         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 py-10 text-black">
+
+              <div class="grid grid-cols-1 sm:grid-cols-6 bg-[#9b9bcd] rounded-md py-4 shadow-md">
+                  <div class="col-span-3 sm:col-span-2 flex items-center  justify-center ">
+                    <img src="./images/profile-1.png" class="max-h-[70%] sm:h-[70%] max-w-[70%] sm:w-[70%] rounded-md" alt="profile">
+                  </div>
+                  <div class="col-span-3 sm:col-span-4 flex flex-col justify-center space-y-4">
+                       <h3 class="text-lg uppercase font-bold text-center sm:text-left">olivia cole</h3>
+                       <p class="text-center sm:text-left px-2 sm:px-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. </p>
+                  </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-6 bg-[#9b9bcd] rounded-md py-4 shadow-md">
+                <div class="col-span-3 sm:col-span-2 flex items-center  justify-center ">
+                  <img src="./images/profile-3.png" class="max-h-[70%] sm:h-[70%] max-w-[70%] sm:w-[70%] rounded-md" alt="profile">
+                </div>
+                <div class="col-span-3 sm:col-span-4 flex flex-col justify-center space-y-4">
+                     <h3 class="text-lg uppercase font-bold text-center sm:text-left">jessica page</h3>
+                     <p class="text-center sm:text-left px-2 sm:px-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. </p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-6 bg-[#9b9bcd] rounded-md py-4 shadow-md">
+                <div class="col-span-3 sm:col-span-2 flex items-center  justify-center ">
+                  <img src="./images/profile-2.png" class="max-h-[70%] sm:h-[70%] max-w-[70%] sm:w-[70%] rounded-md" alt="profile">
+                </div>
+                <div class="col-span-3 sm:col-span-4 flex flex-col justify-center space-y-4">
+                     <h3 class="text-lg uppercase font-bold text-center sm:text-left">evan white</h3>
+                     <p class="text-center sm:text-left px-2 sm:px-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. </p>
+                </div>
+            </div>
+         </div>
+    </div>
+  </section>
+
+  <section class="px-4 sm:px-2 py-12">
+          <div class="banner space-y-10 p-4 rounded-md">
+              <div class="text-center text-lg  uppercase">are you ready?</div>
+              <div><h2 class="text-4xl sm:text-6xl capitalize font-bold text-center ">be a part of the next big thing</h2></div>
+              <div class="flex items-center justify-center"><button class="py-2 px-6 rounded-md bg-black text-white text-md sm:text-lg  shadow-sm uppercase">get started</button></div>
+          </div>
+  </section>
+
+  <section class="px-4 sm:px-2 py-12 bg-[#8D8DDA] md:mt-36">
+      <div class="grid grid-cols-1  lg:grid-cols-6 text-black">
+          <div class="text-center text-xl  uppercase font-bold hidden md:block">krypto</div>
+          <div class="hidden lg:block">
+              <ul>
+                <li><a href="#" class=" font-bold text-lg">krypto</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">buy nfts</a></li>
+                <li><a href="#">sell nfts</a></li>
+              </ul>
+          </div>
+          <div class="hidden lg:block">
+              <ul>
+                 <li class="font-bold text-lg">market</li>
+                 <li><a href="#">browse nfts</a></li>
+                 <li><a href="#">buy nfts</a></li>
+                 <li><a href="#">sell nfts</a></li>
+              </ul>
+          </div>
+          <div  class="hidden lg:block">
+             <ul>
+                <li class="font-bold text-lg">contact</li>
+                <li><a href="#">email</a></li>
+                <li><a href="#">linkedin</a></li>
+                <li><a href="#">instagram</a></li>
+                <li><a href="#">twitter</a></li>
+             </ul>
+          </div>
+          <div class="lg:col-start-5 lg:col-end-7 ">
+               <div class="text-center text-lg  uppercase text-black font-bold">join our newsletter</div>
+               <div class="py-4">
+                  <form class="flex justify-center items-center space-x-1">
+                     <input type="text" placeholder="email@email.com" class="outline-none text-black p-2 rounded-md">
+                      <button class="px-4 py-2 rounded-md bg-[#2b3297] hover:bg-[#3a419f] uppercase text-white">submit</button>
+                  </form>
+               </div>
+          </div>
+      </div>
+  </section>
+  </div>
+    
+         
+</body>
+<script>
+    const toggleButton=document.getElementById('toggle-btn');
+    const toggleMenu=document.getElementById('toggle-menu');
+
+    toggleButton.addEventListener('click',()=>{
+        toggleMenu.classList.toggle("hidden"); 
+    });
+
+    window.addEventListener('click',(e)=>{
+         if(!toggleButton.hasAttribute('hidden')&&e.target!=toggleButton){
+             toggleMenu.classList.add("hidden");
+         }
+    });
+
+</script>
+</html>

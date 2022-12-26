@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'outfit',sans-serif;
+}
+
+body{
+/* Created with https://www.css-gradient.com */
+background: #8E8DDA;
+background: -webkit-linear-gradient(bottom left, #8E8DDA, #1A2297);
+background: -moz-linear-gradient(bottom left, #8E8DDA, #1A2297);
+background: linear-gradient(to top right, #8E8DDA, #1A2297);
+}
+
+.banner{
+    /* Created with https://www.css-gradient.com */
+background: #AAD9D9;
+background: -webkit-linear-gradient(top left, #AAD9D9, #8D8DDA);
+background: -moz-linear-gradient(top left, #AAD9D9, #8D8DDA);
+background: linear-gradient(to bottom right, #AAD9D9, #8D8DDA);
+}
+
+p,a{
+    font-family: 'Rubik',sans-serif;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
